@@ -24,16 +24,20 @@ article div {
   width: 100%;
 }
 
+/* Aligned header to center */
 header div {
   text-align: center;
   width: 100%;
 }
+
+/* Aligned footer to center */
 
 footer div {
   text-align: center;
   width: 100%;
 }
 
+/* Aligned nav to center */
 nav div {
   text-align: center;
   width: 100%;
@@ -49,28 +53,35 @@ div {
   width: 600px;
 }
 
-main{
+/* Restricted main width to 50% with auto margin to have text at the center of the page and left aligned. */
+main {
   width: 50%;
   margin: auto;
 }
 
+/* Added 2px border of color #003049. */
 img {
   width: 100%;
   max-width: 200px;
   height: auto;
+  border: 2px solid #003049;
 }
 
 hr {
   border: 1px solid black;
 }
 
+/* To make circular image. */
 .image-circle {  
-  border-radius: 10%;
-}
-img {
-  border: 2px solid #003049;
+  border-radius: 50%;
 }
 
+/* To add padding between navigation links. */
+nav div a {
+  padding: 10px;
+}
+
+/* Color changes for the links based on operations like hover or visited. */
 a:link    { color: #d62828;  }
 a:visited { color: #d62828;   }
 a:hover   { color: #f77f00; }
